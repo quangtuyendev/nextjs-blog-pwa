@@ -1,11 +1,8 @@
-import Head from 'next/head';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 import React, { useContext } from 'react';
 import Layout from '../components/Layout';
 import { LocaleContext } from '../contexts/LocaleContext';
-import { ARTICLES_KEY, ARTICLES_TOPIC_KEY } from '../queries/key';
-import { preFetching } from '../utils/preFetching';
 
 NotFound.propTypes = {
   articleTopics: PropTypes.array,
@@ -21,10 +18,6 @@ function NotFound({ articles, articleTopics }) {
   const { locale } = useContext(LocaleContext);
   return (
     <>
-      <Head>
-        <title>Not Found - NextJs-Blog</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
       <Layout articles={articles} articleTopics={articleTopics}>
         <div className="container">
           <div className="row">

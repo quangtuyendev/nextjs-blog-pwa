@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -19,10 +18,6 @@ Error.defaultProps = {
 function Error({ articles, articleTopics }) {
   return (
     <>
-      <Head>
-        <title>Not Found - NextJs-Blog</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
       <Layout articles={articles} articleTopics={articleTopics}>
         <div className="container">
           <div className="row">

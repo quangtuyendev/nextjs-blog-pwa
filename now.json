@@ -1,7 +1,7 @@
 {
     "version": 2,
-    "name": "nextjs-pwa-i18-blog",
-    "alias": "nextjs-pwa-i18-blog.now.sh",
+    "name": "next-blog-pwa-nqt",
+    "alias": "next-blog-pwa-nqt.now.sh",
     "routes": [
         {
             "src": "^/service-worker.js$",
