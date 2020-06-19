@@ -8500,6 +8500,11 @@ ul.dropdown-content>.dropdown-trigger:hover>ul.dropdown-content>li:hover>a {
 /*------------------------------------------------------------------
     # Not Found
 */
+
+.page-error .col-lg-6 {
+    margin-top: 200px;
+}
+
 .error-page {
     margin-top: 50px;
 }

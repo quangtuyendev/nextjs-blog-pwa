@@ -18,7 +18,7 @@ function BreadCrumb({ q, category }) {
     <>
       <div
         className="page-title-area text-white bg-image bg-overlay ptb-60"
-        style={{ backgroundImage: `url(/static/images/header/2.jpg)` }}
+        style={{ backgroundImage: `url(static/images/header/2.jpg)` }}
       >
         <div className="container">
           <div className="row">

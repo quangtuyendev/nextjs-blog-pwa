@@ -7,7 +7,6 @@ function PostShareCount() {
   const { asPath } = useRouter();
   const randomShareCount = () => Math.floor(Math.random() * 200);
   const shareCount = randomShareCount();
-
   return (
     <>
       <div className="post-share-area">
@@ -17,7 +16,7 @@ function PostShareCount() {
         </h3>
         <div className="share">
           <a className="facebook" href="/">
-            <FacebookShareButton url={`${DOMAIN_URL}/${asPath}`}>
+            <FacebookShareButton url={DOMAIN_URL + asPath}>
               <span className="fa fa-facebook" />
               <span className="text">SHARE POST</span>
             </FacebookShareButton>

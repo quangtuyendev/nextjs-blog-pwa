@@ -7,10 +7,7 @@ function Banner() {
         <div className="widget-content">
           <div className="subscribe-box">
             <div className="icon">
-              <img
-                src={'/static/images/widget/newsletter/icon.png'}
-                alt="icon"
-              />
+              <img src="/static/images/widget/newsletter/icon.png" alt="icon" />
             </div>
             <p>Subscribe to our mailing list to get the new updates!</p>
             <div className="subscribe-form">

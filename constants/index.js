@@ -1,6 +1,6 @@
 export const GRAPHCMS_API = 'https://app.myzid.com/graphql';
 export const BASE_URL = 'https://app.myzid.com';
-export const DOMAIN_URL = 'https://nextjs-blog-pwas.herokuapp.com';
+export const DOMAIN_URL = 'https://next-blog-pwa-nqt.now.sh';
 
 export const TABS = [
   {
