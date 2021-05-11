@@ -8,7 +8,7 @@
     "formik": "^2.1.4",
     "is-reachable": "^4.0.0",
     "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "md5": "^2.2.1",
     "moment": "^2.26.0",
     "next": "9.3.5",
